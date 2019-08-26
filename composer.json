@@ -1,0 +1,7 @@
+{
+    "require": {
+    },
+    "autoload": {
+        "classmap": ["vendor/acme/tracker/src"]
+    }
+}

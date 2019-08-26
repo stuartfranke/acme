@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  web:
+    image: php-dev:latest
+    build: .
+    ports:
+      - 80:80
+    volumes:
+      - .:/var/www/html
+      - ./docker/apache/sites-available:/etc/apache2/sites-available
